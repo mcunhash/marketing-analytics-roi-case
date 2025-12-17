@@ -23,8 +23,18 @@ alavancas de otimização e gerar recomendações baseadas em dados.
 - SQL
 - VS Code
 - Google Sheets (apoio à visualização)
+- Python (pandas) para tratamento e padronização dos dados
 
 ---
 
 ## Estrutura do Repositório
 
+sql/
+├── load_raw.sql        # Consultas de carga e dados brutos
+├── tabelas_analytics.sql    # Tratamento e regras de negócio
+└── top 5 campanhas.sql      # Métricas finais e análises de ROI
+└── dados campanha trimestre.sql      # Métricas finais e análises de ROI
+└── perfil publico.sql    # Métricas finais e análises de ROI
+
+python/
+└── limpeza.py  # Limpeza e padronização dos arquivos CSV
