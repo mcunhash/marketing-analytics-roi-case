@@ -31,19 +31,14 @@ alavancas de otimização e gerar recomendações baseadas em dados.
 ---
 
 sql/
----
-├── load_raw.sql        # Consultas de carga e dados brutos
----
-├── tabelas_analytics.sql    # Tratamento e regras de negócio
----
-└── top 5 campanhas.sql      # Métricas finais e análises de ROI
----
-└── dados campanha trimestre.sql      # Métricas finais e análises de ROI
----
-└── perfil publico.sql    # Métricas finais e análises de ROI
----
+
+ - load_raw.sql        # Consultas de carga e dados brutos
+ - tabelas_analytics.sql    # Tratamento e regras de negócio
+ - top 5 campanhas.sql      # Métricas finais e análises de ROI
+ - dados campanha trimestre.sql      # Métricas finais e análises de ROI
+ - perfil publico.sql    # Métricas finais e análises de ROI
+
 
 python/
----
-└── limpeza.py  # Limpeza e padronização dos arquivos CSV
----
+ - limpeza.py  # Limpeza e padronização dos arquivos CSV
+
